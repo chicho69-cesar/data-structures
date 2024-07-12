@@ -1,0 +1,11 @@
+        Tablas Hash - Funciones Hash
+* Es una estructura de datos
+* Se basan en la asignación de una clave a cada elemento
+* Inserción y búsqueda rápida
+* Limitadas en tamaño, ya que están basadas en Arreglos
+* Su tamaño puede cambiar, pero es recomendable evitar cambiar el tamaño
+* Su tamaño - 1 es recomendable que sea un número primo
+* Las claves son asignadas a elementos en una Tabla Hash usando una función Hash
+* Una función Hash ayuda a calcular el índice óptimo en el cual un elemento debería ubicarse
+* El índice debe ser menor que el tamaño de la tabla y mayor o igual a cero
+* No debe haber datos repetidos en una Tabla Hash
