@@ -7,6 +7,11 @@ import org.chicho69.cesar.infix_to_prefix_advanced.InfixToPrefixAdvanced;
 import org.chicho69.cesar.infix_to_prefix_simple.InfixToPrefixSimple;
 import org.chicho69.cesar.linked_lists.TestLinkedList;
 import org.chicho69.cesar.prefix_evaluation.PrefixEvaluation;
+import org.chicho69.cesar.search_methods.TestArraySearches;
+import org.chicho69.cesar.simple_queues.TestSimpleQueue;
+import org.chicho69.cesar.simple_stacks.TestSimpleStack;
+import org.chicho69.cesar.sort_methods.TestArraySorts;
+import org.chicho69.cesar.trees_sorted.TestTreeSorted;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,12 +34,21 @@ public class Main {
         hashTable.run();
 
         TestHashTable hashTable = new TestHashTable();
-        hashTable.run(); */
+        hashTable.run();
 
         TestLinkedList linkedList = new TestLinkedList();
         linkedList.run();
 
-        /* InfixToPostfixSimple.run();
+        TestArraySearches.run();
+        TestArraySorts.run();
+
+        TestSimpleQueue simpleQueue = new TestSimpleQueue();
+        simpleQueue.menu();
+
+        TestSimpleStack simpleStack = new TestSimpleStack();
+        simpleStack.menu();
+
+        InfixToPostfixSimple.run();
         InfixToPrefixSimple.run();
         InfixToPostfixAdvanced.run();
         InfixToPrefixAdvanced.run();
@@ -42,5 +56,8 @@ public class Main {
         PrefixEvaluation.run();
         PostfixToInfix.run();
         PrefixToInfix.run(); */
+
+        TestTreeSorted treeSorted = new TestTreeSorted();
+        treeSorted.menu();
     }
 }

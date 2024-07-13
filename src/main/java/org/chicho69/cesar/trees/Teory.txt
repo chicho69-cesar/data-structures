@@ -1,0 +1,26 @@
+Un arbol binario ordenado es aquel donde todos los elementos se insertar de manera ordenada, es decir,
+si se inserta un dato menor a un nodo, este dato ira a la izquirda, si se inserta un dato mayor, este ira
+a la derecha.
+
+
+
+Un arbol binario balanceado es aquel el cual es equilibrado y ordenado a la vez, es decir, el factor
+de equilibrio de todos sus nodos es de 1, 0 o -1, por lo que cuando agregamos un dato aparte de
+insertarlo ordenadamente se deben de realizar rotaciones si es necesario para que el equilibrio no se pierda.
+
+Factor de equilibrio: El factor de equilibrio de un nodo se calcula restandole a la altura de su rama
+derecha la altura de su rama izquierda, la altura de un rama esta dada por el numero de niveles que posee
+dicha rama
+
+
+
+Un arbol binario equilibrado es aquel en donde cada nodo solo puede tener 0, 1 o 2 hijos
+Los nodos que tienen 0 hijos son llamados ojas y son los unicos que se pueden eliminar de este tipo
+de arbol, despues al momento de insertar el orden no importa, lo que importa es el equilibrio, es decir,
+los nodos pueden estar desordenados pero el factor de equilibrio de cada nodo solo puede ser 0, 1 o -1
+por lo que cuando deseamos insertar un nodo este se insertara en la primera posicion libre de
+izquierda a derecha.
+
+Factor de equilibrio: El factor de equilibrio de un nodo se calcula restandole a la altura de su rama
+derecha la altura de su rama izquierda, la altura de un rama esta dada por el numero de niveles que posee
+dicha rama
