@@ -11,6 +11,7 @@ import org.chicho69.cesar.search_methods.TestArraySearches;
 import org.chicho69.cesar.simple_queues.TestSimpleQueue;
 import org.chicho69.cesar.simple_stacks.TestSimpleStack;
 import org.chicho69.cesar.sort_methods.TestArraySorts;
+import org.chicho69.cesar.trees_balanced.TestBalancedTree;
 import org.chicho69.cesar.trees_sorted.TestTreeSorted;
 
 public class Main {
@@ -55,9 +56,12 @@ public class Main {
         PostfixEvaluation.run();
         PrefixEvaluation.run();
         PostfixToInfix.run();
-        PrefixToInfix.run(); */
+        PrefixToInfix.run();
 
         TestTreeSorted treeSorted = new TestTreeSorted();
-        treeSorted.menu();
+        treeSorted.menu(); */
+
+        TestBalancedTree balancedTree = new TestBalancedTree();
+        balancedTree.menu();
     }
 }
