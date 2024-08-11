@@ -1,5 +1,6 @@
 package org.chicho69.cesar;
 
+import org.chicho69.cesar.graphs.TestGraph;
 import org.chicho69.cesar.hash_tables.TestHashTable;
 import org.chicho69.cesar.infix_to_postfix_advanced.InfixToPostfixAdvanced;
 import org.chicho69.cesar.infix_to_postfix_simple.InfixToPostfixSimple;
@@ -63,9 +64,12 @@ public class Main {
         treeSorted.menu();
 
         TestBalancedTree balancedTree = new TestBalancedTree();
-        balancedTree.menu(); */
+        balancedTree.menu();
 
         TestTree tree = new TestTree();
-        tree.menu();
+        tree.menu(); */
+
+        TestGraph testGraph = new TestGraph();
+        testGraph.menu();
     }
 }
